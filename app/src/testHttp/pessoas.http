@@ -1,0 +1,28 @@
+@url = https://8080-marcosaurelioe-sw2aapi2-o5d53jh4cd2.ws-us116.gitpod.io
+
+###
+POST {{url}}/pessoas
+Content-Type: application/json
+
+{
+    "nome": "marcos Zika Do Baile",
+    "idade": 18 
+}
+
+###
+GET {{url}}/pessoas
+
+###
+GET {{url}}/pessoas/1
+
+###
+PUT {{url}}/pessoas/2
+Content-Type: application/json
+
+{
+    "nome": "registro modificado",
+    "idade": 20 
+}
+
+###
+DELETE {{url}}/pessoas/2
